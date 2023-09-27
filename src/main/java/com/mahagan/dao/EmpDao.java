@@ -8,7 +8,8 @@ import org.springframework.jdbc.core.RowMapper;
 import com.mahagan.beans.Emp;
   
 public class EmpDao {  
-JdbcTemplate template;  
+JdbcTemplate template;
+//using JDBC
   
 public void setTemplate(JdbcTemplate template) {  
     this.template = template;  
